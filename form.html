@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    
+</head>
+<body id="form1" onload="func()">   
+    
+    <div id="loader-bg">
+                
+        <div class="loader">
+    
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </div>
+                
+    </div>     
+    
+    
+    <div class="container">
+        
+    <header class="header">
+    <img src="Images/logo.png">    
+    <a class="link-title" href="">MSME Connect</a>    
+    
+    </header>
+        
+    <nav class="menu">
+                
+       <ul class="menu-list" id="menu-open">        
+                   
+           <li><a href="index.html"><i class="fa fa-home"></i>Home</a></li>
+        
+           <li><a href="about.html"><i class="fa fa-users"></i>About us</a></li>
+                               
+           <li><a class="current" href="users.html"><i class="fa fa-user"></i> Users</a>
+                
+                <ul class="sub">
+           
+                    <li><a href="form.html"><i class="fa fa-male"></i>Jobseeker</a></li>
+                   
+                    <li><a href="form.html"><i class="fa fa-building"></i>Employer</a></li>
+                   
+                    <li><a href="form_a.html"><i class="fa fa-building-o"></i>Government</a></li>
+               
+                </ul>    
+            
+            </li>
+
+            <li><a href="blog.html"><i class="fa fa-square"></i> Blog</a></li>
+
+                      
+        </ul>            
+                
+    </nav>
+
+    <div class="forms1">
+        <div class="form-box">
+            
+            <div class="button-box">
+            <div id="btn"></div>
+            <button type="button" class="toggle-btn"><a href="form.html">Log In</a></button> 
+            <button type="button" class="toggle-btn"><a href="form2.html">Sign Up</a></button>
+            
+            
+            </div>
+         <div class="icons">
+        
+        <a href="https://account.google.com"><i class="fa fa-google"></i></a>
+        <a href="https://touch.facebook.com/login/"><i class="fa fa-facebook-official"></i></a>    
+        <a href="https://twitter.com/login"><i class="fa fa-twitter"></i></a>
+        
+        </div>
+        
+        <form id="login" class="input-group">
+            
+            <input type="text" class="input-field" placeholder="Username" required>
+            <input type="text" class="input-field" placeholder="Enter password" required>
+            <input type="checkbox" class="check-box"><span class="pass">Remember Password</span>
+            <a class="submit-btn" href="#">Login</a>
+            </form>               
+            
+        </div>         
+    </div>
+
+    <footer class="footer-style">
+        
+        <div class="footer-text">   
+            
+            
+            
+            <div class="col">
+                
+                <div class="footer-heading"><h2 class="special-footer">Connect with Us</h2></div>
+                    
+                    <ul class="social">
+    
+                        <li><a href="#">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <i class="fa fa-facebook-official"></i>
+                            </a>
+                        </li>
+        
+                        <li><a href="#">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <i class="fa fa-instagram"></i>
+                            </a>
+                        </li>
+        
+                        <li><a href="#">
+                            
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <i class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+        
+                        <li><a href="#">
+                            
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <i class="fa fa-youtube-play"></i>
+                            </a>
+                        </li>
+        
+                    </ul>            
+                
+            </div>
+
+            <div class="col">
+                
+                <div class="footer-heading"><h2 class="user">Users</h2></div>
+                
+                <ul>
+                    
+                    <li><a href="form.html"><i class="fa fa-angle-right"></i>Jobseeker</a></li>
+                    <li><a href="form.html"><i class="fa fa-angle-right"></i>Employer</a></li>
+                    <li><a href="form_a.html"><i class="fa fa-angle-right"></i>Government</a></li>
+                
+                </ul>
+                
+            </div>
+                
+            <div class="col">
+                
+                <div class="footer-heading"><h2>Additional Links</h2></div>
+                    
+                <ul class="footer-menu">        
+            
+                    <li><a href="about.html"><i class="fa fa-users"></i> About us</a></li>
+    
+                    <li><a href="feedback.html"><i class="fa fa-comment"></i> Grievance/Feedback</a></li>
+       
+                    <li><a href="faq.html"><i class="fa fa-question"></i> FAQs</a></li>
+       
+                </ul>
+
+                </div>
+                
+                
+                <div class="col">
+                
+                    <div class="footer-heading"><h2 class="spl">Sign Up for our Newsletter</h2></div>
+                
+                    <p>Receive updates and news about our achievements,events and seminars.</p>
+                    
+                    <form class="newsletter">
+                    
+                        <input type="text" class="input-field-footer" placeholder="Email Id" required>
+                    
+                        <button type="submit" class="submit-btn-footer">Sign Up</button>
+                    
+                    </form>
+                    
+                </div>
+            </div>
+        
+        
+                    
+                    
+            <div class="bottom">
+                    
+                    <div class="cprt">                    
+                        <p> &copy; 2020 Minimalistic Website , Design by <a href="#">405:FOUND</a></p>
+                    </div>
+            </div>   
+        
+                  
+    </footer>
+    
+</div> 
+
+<script>
+     
+    var loading = document.getElementById('loader-bg');
+     
+    function func(){
+    loading.style.display = 'none';
+    }
+   
+    $(function() {
+     
+        $('.menu-list li').hover(function() {$('ul.sub',this).slideDown(500);},function() {$('ul.sub',this).slideUp(300);});
+        });
+     
+</script>
+
+</body>
+</html>
